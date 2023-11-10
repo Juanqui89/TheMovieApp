@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #780206; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #061161,
+    #780206
+  ); 
+  background: linear-gradient(
+    to right,
+    #061161,
+    #780206
+  ); 
+  color: #fff;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+
