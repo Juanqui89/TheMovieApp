@@ -1,0 +1,380 @@
+@media screen and (min-width: 375px) {
+  div.carousel.slide {
+    display: block;
+    height: 465px;
+    margin-top: 10px;
+  }
+  img.slider-img {
+    opacity: 0.2;
+    height: 400px;
+  }
+  p.details {
+    font-size: 0.8em;
+  }
+  section.movie-search {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+  section.content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  h1.title {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  section.content p {
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+  p.overview {
+    max-height: 100px;
+  }
+  section.movie-search img,
+  section.content img {
+    width: 150px;
+    height: 200px;
+  }
+  button.mostrar,
+  button.btn-trailer {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  button.btn-trailer {
+    width: 100px;
+  }
+  button.arrow {
+    top: 85%;
+    left: 90%;
+    cursor: pointer;
+  }
+  footer {
+    height: 35px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 560px) {
+  div.carousel.slide {
+    display: block;
+    margin-top: 20px;
+  }
+  p.details {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  section.movie-search {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    margin-top: 20px;
+  }
+  section.content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section.movie-search img,
+  section.content img {
+    width: 120px;
+  }
+  h1.title {
+    font-size: 1em;
+    font-weight: 500;
+    flex-wrap: wrap;
+    max-height: 10px;
+    margin-bottom: 30px;
+  }
+  button.arrow {
+    top: 90%;
+    left: 90%;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 600px) {
+  div.carousel.slide {
+    display: block;
+    margin-top: 20px;
+  }
+  p.details {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  section.movie-search {
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    margin-top: 20px;
+  }
+  section.content {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+  }
+  h1.title {
+    font-size: 1em;
+    font-weight: 500;
+    max-height: 10px;
+    margin-bottom: 30px;
+  }
+  section.content p {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  button.arrow {
+    top: 90%;
+    left: 90%;
+    cursor: pointer;
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 768px) {
+  div.carousel.slide {
+    display: block;
+  }
+  section.movie-search {
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+  section.content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  section.movie-search img,
+  section.content img {
+    width: 200px;
+    height: 250px;
+  }
+  h1.title {
+    font-size: 1.2em;
+    font-weight: 500;
+    flex-wrap: wrap;
+    max-height: 10px;
+    margin-bottom: 30px;
+  }
+  section.content p,
+  p.overview {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  p.overview {
+    max-height: 110px;
+  }
+  button.arrow {
+    top: 90%;
+    left: 93%;
+    cursor: pointer;
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 890px) {
+  button.arrow {
+    top: 90%;
+    left: 92%;
+    cursor: pointer;
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 995px) {
+  input {
+    width: 200px;
+    height: 40px;
+    outline: #222;
+  }
+  section.movie-search {
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+  }
+  section.content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  section.movie-search img,
+  section.content img {
+    width: 150px;
+    height: 250px;
+  }
+  button.arrow {
+    top: 90%;
+    left: 86%;
+    cursor: pointer;
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  input {
+    width: 200px;
+    height: 40px;
+  }
+  div.carousel.slide {
+    height: 570px;
+  }
+  img.slider-img {
+    height: 500px;
+  }
+  section.movie-search {
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+  }
+  section.content {
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
+  }
+  section.movie-search img,
+  section.content img {
+    width: 200px;
+    height: 250px;
+  }
+  section.content p,
+  h1.title,
+  p.overview {
+    font-size: 1.3em;
+    font-weight: 500;
+  }
+  h1.title {
+    max-height: 20px;
+  }
+  p.overview {
+    max-height: 120px;
+  }
+  button.mostrar,
+  button.btn-trailer {
+    font-size: 1.3em;
+    font-weight: 500;
+  }
+  button.btn-trailer {
+    width: 130px;
+  }
+  button.arrow {
+    font-size: 1.6em;
+  }
+  footer p {
+    font-size: 1.3em;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1366px) {
+  input {
+    width: 300px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  div.carousel.slide {
+    margin-top: 50px;
+    height: 700px;
+  }
+  img.slider-img {
+    height: 600px;
+  }
+  section.movie-search {
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+  }
+  img.slider-img {
+    opacity: 0.2;
+  }
+  section.content {
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
+  }
+  section.movie-search img,
+  section.content img {
+    width: 255px;
+    height: 320px;
+  }
+  p.details {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  section.content p,
+  h1.title,
+  p.overview {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  h1.title {
+    max-height: 20px;
+    margin-bottom: 40px;
+  }
+  p.overview {
+    max-height: 110px;
+  }
+  button.mostrar,
+  button.btn-trailer {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  button.btn-trailer {
+    width: 130px;
+  }
+  button.arrow {
+    font-size: 2em;
+    top: 90%;
+    left: 89%;
+  }
+  footer p {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1440px) {
+  div.carousel.slide {
+    margin-top: 50px;
+    height: 900px;
+  }
+  img.slider-img {
+    height: 800px;
+  }
+  input {
+    width: 300px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  section.movie-search {
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+  }
+  img.slider-img {
+    opacity: 0.2;
+  }
+  section.content {
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
+  }
+  section.movie-search img,
+  section.content img {
+    width: 300px;
+    height: 350px;
+  }
+  p.details {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  section.content p,
+  h1.title,
+  p.overview {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  p.overview {
+    max-height: 110px;
+  }
+  button.btn-trailer.btn-trailer-slider {
+    width: 200px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  button.mostrar,
+  button.btn-trailer {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  button.btn-trailer {
+    width: 130px;
+  }
+  button.arrow {
+    font-size: 2em;
+    top: 95%;
+    left: 92%;
+  }
+  footer p {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+}
