@@ -1,27 +1,7 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Aplicación web de películas, construida con HTML, CSS, JavaScript, TypeScript, React, Bootstrap y la API de The Movie Database (TMDb). La 
+plataforma permite a los usuarios explorar una amplia variedad de películas, brindando detalles esenciales como el póster, sinopsis, fecha 
+de lanzamiento, título y calificación de votos. Gracias a la integración de TypeScript, se mejora la calidad del código con tipado estático, 
+asegurando una experiencia sin errores. El diseño responsive, respaldado por Bootstrap, garantiza una navegación óptima en diversos 
+dispositivos. La aplicación se conecta a la API de TMDb para obtener información en tiempo real, asegurando datos actualizados. En resumen, 
+esta aplicación proporciona una experiencia simplificada y centrada en los aspectos fundamentales de cada película, invitando a los usuarios 
+a explorar el mundo cinematográfico de manera eficiente y atractiva.
