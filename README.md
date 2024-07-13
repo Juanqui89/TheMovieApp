@@ -1,27 +1,9 @@
-# React + TypeScript + Vite
+La aplicación web de películas está diseñada para brindar a los usuarios una experiencia completa y eficiente al explorar una extensa variedad de películas. Desarrollada utilizando tecnologías clave como HTML, CSS, JavaScript y TypeScript, junto con el framework React y el diseño responsive de Bootstrap, la plataforma garantiza una navegación óptima en diversos dispositivos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Gracias a la integración de TypeScript, se asegura una mayor calidad del código mediante tipado estático, lo que minimiza errores y mejora la mantenibilidad del sistema. Esto se traduce en una experiencia de usuario más fluida y sin interrupciones.
 
-Currently, two official plugins are available:
+La aplicación se conecta de manera directa con la API de The Movie Database (TMDb), lo que permite a los usuarios acceder a información actualizada y detallada sobre cada película. Desde detalles básicos como el título, póster, sinopsis, fecha de lanzamiento y calificación de votos, hasta información más específica, la plataforma ofrece un panorama completo para que los usuarios puedan tomar decisiones informadas sobre qué películas ver.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El diseño centrado en los aspectos fundamentales de cada película asegura que la experiencia de usuario sea intuitiva y atractiva. Los usuarios pueden explorar y descubrir nuevas películas de manera eficiente, sin distracciones innecesarias.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+En resumen, esta aplicación web no solo facilita la exploración del vasto mundo cinematográfico, sino que también lo hace de manera estructurada y optimizada, brindando a los usuarios una herramienta poderosa para disfrutar y descubrir películas de acuerdo a sus preferencias y gustos personales.
